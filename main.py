@@ -1,4 +1,3 @@
-
 #Criando a classe validar cep
 
 class ValidarCEP:
@@ -30,7 +29,7 @@ class ValidarCEP:
             else:
                 return print(f"CEP ({self}.cep) validado com sucesso")
 
-
+#Validando o CEP
 if __name__ == '__main__':
     validar = ValidarCEP('111111')
     validar.validar_todas_condicoes()
